@@ -1,10 +1,8 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
 import { Text } from 'react-native'
 import DetailsScreen from '../screens/game/Details.screen';
 
 const UserDetailsStack = createNativeStackNavigator()
-
 const userDetailsRoutes = (
     <UserDetailsStack.Navigator>
         <UserDetailsStack.Screen name='USER_DETAILS' component={DetailsScreen} options={{
