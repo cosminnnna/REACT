@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import type { TextProps, GestureResponderEvent } from 'react-native';
 
 export namespace ExpoRouter {
-  type StaticRoutes = `/` | `/_sitemap` | `/src/api` | `/src/components/Details` | `/src/components/Login` | `/src/components/PrettyText` | `/src/components/Register` | `/src/hooks/authContext` | `/src/hooks/userDetailsContext` | `/src/router` | `/src/router/auth.router` | `/src/router/route-names` | `/src/router/userDetails.router` | `/src/screens/auth/Login.screen` | `/src/screens/auth/Register.screen` | `/src/screens/game/Details.screen`;
+  type StaticRoutes = `/` | `/_sitemap` | `/src/api` | `/src/components/Details` | `/src/components/Login` | `/src/components/Register` | `/src/hooks/authContext` | `/src/hooks/userDetailsContext` | `/src/router` | `/src/router/auth.router` | `/src/router/route-names` | `/src/router/userDetails.router` | `/src/screens/auth/Login.screen` | `/src/screens/auth/Register.screen` | `/src/screens/game/Details.screen`;
   type DynamicRoutes<T extends string> = never;
   type DynamicRouteTemplate = never;
 
