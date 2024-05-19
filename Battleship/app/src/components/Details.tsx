@@ -15,13 +15,13 @@ const Container = styled.View`
   flex-direction: column;
   padding: 50px;
   margin-top: 30px;
-  background-color: #f8e1f4; /* Fundal roz */
+  background-color: #f8e1f4;
 `;
 
 const TextBox = styled.View`
-  background-color: #ffc0cb; /* Fundal patrat */
+  background-color: #ffc0cb; 
   padding: 20px;
-  border-radius: 10px; /* Colțuri rotunjite */
+  border-radius: 10px; 
   margin-bottom: 20px;
 `;
 

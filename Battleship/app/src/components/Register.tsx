@@ -9,7 +9,7 @@ const Container = styled.View`
   flex-direction: column;
   margin-top: 30px;
   padding: 50px;
-  background-color: #f8e1f4; /* Fundal roz pudrat */
+  background-color: #f8e1f4; 
 `;
 
 const Input = styled.TextInput`
