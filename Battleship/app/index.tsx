@@ -1,4 +1,3 @@
-import { Text, View } from "react-native";
 import { AuthContextProvider, useAuth } from "./src/hooks/authContext";
 import { UserDetailsContextProvider } from "./src/hooks/userDetailsContext";
 import Router from "./src/router";
